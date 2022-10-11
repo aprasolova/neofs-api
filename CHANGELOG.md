@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.13.1] - 2022-08-01
+## [2.13.2] - 2022-08-01
 
 ### Added
 - `EACL_NOT_FOUND` status code to the `container` section (#230)
@@ -37,7 +37,7 @@ Network magic, main status codes, object locks and notifications.
 - `LOCK` value of `object.Type` enum (#194)
 - `Lock` message with payload content of `LOCK` objects (#194)
 - `LOCKED` and `LOCK_NON_REGULAR_OBJECT` status codes to `Object` section (#194)
-- `scheme` field of type `SignatureScheme` to `Signature` message which determines 
+- `scheme` field of type `SignatureScheme` to `Signature` message which determines
   signature scheme (#55)
 - `SignatureRFC6979` message (#203)
 
@@ -142,8 +142,8 @@ values in the objects.
 
 ### Changed
 
-- Clarified processing of empty search query in `object.Search` RPC. 
-- Specified connection of tombstone expiration value with well-known 
+- Clarified processing of empty search query in `object.Search` RPC.
+- Specified connection of tombstone expiration value with well-known
   `__NEOFS__EXPIRATION_EPOCH` object attribute.
 
 ## [2.3.0] - 2021-02-11 - Seonyudo (선유도, 仙遊島)
